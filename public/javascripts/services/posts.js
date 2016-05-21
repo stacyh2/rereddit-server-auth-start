@@ -1,5 +1,8 @@
+
 app.factory('posts', ['$http', function($http) {
+  
   var postService = {
+
     posts: [],
 
     getAll: function() {
@@ -37,3 +40,4 @@ app.factory('posts', ['$http', function($http) {
 
   return postService;
 }]);
+

@@ -1,4 +1,4 @@
-var express = require('express');
+var express = require('express');//server
 var router = express.Router()
 var mongoose = require('mongoose');
 var passport = require('passport');

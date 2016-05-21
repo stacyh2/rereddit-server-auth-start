@@ -12,6 +12,19 @@ app.config(['$stateProvider','$urlRouterProvider', function($stateProvider, $url
         }]
        }
     })
+
+    .state('login', {
+        url: '/login',
+        templateUrl: '/templates/login.html',
+        controller:'AuthCtrl'
+      })
+    
+     .state('register', {
+        url: '/register',
+        templateUrl: '/templates/register.html',
+        controller:'AuthCtrl'
+      })
+
     .state('post', {
       url: '/posts/:id',
       templateUrl: '/templates/posts.html',

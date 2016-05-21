@@ -1,4 +1,5 @@
 app.controller('MainCtrl', ['$scope', 'posts', function($scope, posts){
+  console.log("hey");
   $scope.posts = posts.posts;
 
   $scope.addPost = function() {
